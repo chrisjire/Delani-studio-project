@@ -2,7 +2,7 @@
     width: device-width;
   }
 
-  .img{
+  .welcome{
     background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true");
     background-size: cover;
     height: 100vh;
@@ -11,17 +11,43 @@
     align-items: center;
     justify-content: center;
  }
- .img h1{
+ .welcome h1{
     color: aliceblue;
     font-size: 50px;
  }
-.img p{
+.welcome p{
     color: aliceblue;
     font-size: 20px;
     
 }
-.img #mouse{
+.welcome #mouse{
     position: absolute;
     bottom: 10px;
     width: none;
 }
+.about{
+    text-align: center;
+}
+.about h1{
+    font-size: 40px;
+}
+.about p{
+    font-size: 20px;
+}
+.services{
+    background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    height: 30vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    text-align: center
+ }
+ .services h1{
+     font-size: 40px;
+ }
+ .services p{
+     font-size: 20px;
+ }
