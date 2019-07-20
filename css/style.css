@@ -56,4 +56,15 @@
  }
  .portfolio{
      text-align: center
+    }
+ .contact   {
+    background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
+    background-size: cover;
+    height: 30vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    text-align: center
  }
