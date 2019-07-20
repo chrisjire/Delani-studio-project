@@ -98,4 +98,6 @@
   ::placeholder { 
     color: white;
   }
-  
+  .end  {
+      text-align: center;
+  }
