@@ -36,3 +36,9 @@ $(document).ready(function() {
       $("#product2").toggle();
     });
 });
+
+$(document).ready(function(){
+    $("form").submit(function(){
+      alert("we have recieved your your message. Thank you for reaching out to us.");
+    });
+  });
