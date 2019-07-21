@@ -74,6 +74,7 @@ body    {
 .contact form {
     margin: 0 auto;
     width: 459px;
+    font-family: 'Courgette', cursive;
   }
   
 .contact textarea {
